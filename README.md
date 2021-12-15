@@ -10,6 +10,8 @@ December 15, 2021
 * Why do data projects fail?  How does Prescriptive Analytics change the failure patterns?
 * [Synapse Serverless and Data Lakes Overview](https://github.com/davew-msft/synapse/blob/master/synapse.md)
   * this includes using CETAS as a method to do "semantic enrichment" of data.  
+* Interesting Prescriptive Analytics Use Cases
+  * [Jupyter Notebook](./Prescriptive_Analytics.ipynb)
 
 
 ## Resources
