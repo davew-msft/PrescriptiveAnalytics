@@ -3,7 +3,9 @@
 Dave Wentzel  
 linkedin.com/in/dwentzel  
 December 15, 2021  
-1-3pm EST
+1-3pm EST  
+
+[Survey](https://aka.ms/mtcsurvey/0106228)  
 
 ## Agenda
 
