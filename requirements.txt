@@ -1,0 +1,8 @@
+## Please list additional packages with version numbers
+numpy==1.18.1
+pandas==1.0.1
+seaborn==0.11.0
+statsmodels==0.11.0
+sidetable==0.7.0
+simple-colors==0.1.5
+scikit-learn==0.22.2
