@@ -1,7 +1,7 @@
 # Prescriptive Analytics Workshop
 
 Dave Wentzel  
-linkedin.com/in/dwentzel  
+[LinkedIn Profile](https://linkedin.com/in/dwentzel)  
 Spark - 20220218
 
 ## Abstract 
@@ -23,10 +23,15 @@ In this session we'll look at a few interesting use cases to understand how Pres
 
 ## Demos
 
-1. Prescriptive Analytics requires a simple analytics pattern implementation.  [`CETAS`](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-cetas) in Synapse works real well.  [Demo Notebook]()
+1. **Prescriptive Analytics requires a simple analytics pattern**.  [`CETAS`](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-cetas) in Synapse works real well.  I have 2 versions of this demo.  Both do the same thing, one is simply a notebook where I can show better documentation and plots:  
+    * [Demo SQL Script](./taxi-eda.sql):  import this to your Synapse workspace.  
+    * [SQL Serverless Notebook](./taxi-eda.ipynb)
+      * this uses a vscode `devcontainer` to ensure everything is setup perfectly.  If you know how to use these then it should be easy.  
+      * I use this devcontainer "pattern" along with the imports and utils files in the `scripts` folder to create a totally reproducible "analytics sandbox" that can be used by anyone without dealing with installing python and configuring environments.  
+      * **This works awesome for hands-on, interactive demos**.  I have a version of this that runs in the browser and is launched via ACI that will allow MTC session attendees to play with the code and adjust the parameters WITHOUT needing access to Azure, vscode, python, or Synapse.  Let me know if this is interesting and maybe we can collaborate on it.  
+2. **Avoiding Cognitive Mistakes**.  Prescriptive Analytics is primarily about answering the question _what do we do next?_.  This requires collaboration and critical thinking skills.  You don't want to make cognitive mistakes.  [Here's a case where we need to talk through the business problem so we tell management the RIGHT decision to make](./CognitiveMistakes.ipynb)
+    * we use Synapse Spark for this example, you will need to import the notebook into your Synapse workspace
+3. **Marketing Campaign Analytics**. Let's use some data and critical thinking to recommend _what should we do next?_ 
 
-2. Prescriptive Analytics is primarily about asking interesting questions in a collaborative environment.  You don't want to make cognitive mistakes.  [Here's a case where we need to talk through the business problem so we tell management the RIGHT decision to make](CognitiveMistakes.ipynb)
 
-lakepath:lake/gold/drill-data/drill-trials.csv
 
-https://davewdemodata.blob.core.windows.net/lake/gold/drill-data/drill-trials.csv?sv=2020-04-08&st=2021-02-10T14%3A58%3A00Z&se=2030-02-11T14%3A58%3A00Z&sr=b&sp=r&sig=muqHLi735zBkT8lxqpcMixzKJwk5mfaLILkysbY5FpU%3D
