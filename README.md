@@ -32,6 +32,9 @@ In this session we'll look at a few interesting use cases to understand how Pres
 2. **Avoiding Cognitive Mistakes**.  Prescriptive Analytics is primarily about answering the question _what do we do next?_.  This requires collaboration and critical thinking skills.  You don't want to make cognitive mistakes.  [Here's a case where we need to talk through the business problem so we tell management the RIGHT decision to make](./CognitiveMistakes.ipynb)
     * we use Synapse Spark for this example, you will need to import the notebook into your Synapse workspace
 3. **Marketing Campaign Analytics**. Let's use some data and critical thinking to recommend _what should we do next?_ 
+    * [Demo Notebook](./SocialMediaCampaignAnalytics.ipynb):  load this up into your Synapse workspace and execute.  
+4. **A primer on Prescriptive Analytics and Linear Programming...according to Dave**.  Prescriptive Analytics is an old field, but the term `Prescriptive Analytics` still means different things to different people.  Some view it as using math and `linear algebra (programming)` to solve problems.  I must say, Linear Programming is really easy to do and is VERY cool to demo.  
+    * [Prescriptive Analytics Notebook](./Prescriptive_Analytics.ipynb): It's easier to run this in my devcontainer as a Jupyter notebook vs in Synapse Workspace.  But it's easily adaptable.  **Honestly, start here if you have no clue what Prescriptive Analytics even is.  This is my overview**
 
 
 

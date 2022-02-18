@@ -16,6 +16,7 @@ tbl_styles = [ {
 
 ##
 ## helper functions
+import simple_colors as sc
 def printbold( s1, s2 = None ):
     """
     Print text in bold and then return to normal.
