@@ -25,7 +25,7 @@ In this session we'll look at a few interesting use cases to understand how Pres
 
 1. **Prescriptive Analytics requires a simple analytics pattern**.  [`CETAS`](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-cetas) in Synapse works real well.  I have 2 versions of this demo.  Both do the same thing, one is simply a notebook where I can show better documentation and plots:  
     * [Demo SQL Script](./taxi-eda.sql):  import this to your Synapse workspace.  
-    * [SQL Serverless Notebook](./taxi-eda.ipynb)
+    * [SQL Serverless Notebook](./taxi_eda.ipynb)
       * this uses a vscode `devcontainer` to ensure everything is setup perfectly.  If you know how to use these then it should be easy.  
       * I use this devcontainer "pattern" along with the imports and utils files in the `scripts` folder to create a totally reproducible "analytics sandbox" that can be used by anyone without dealing with installing python and configuring environments.  
       * **This works awesome for hands-on, interactive demos**.  I have a version of this that runs in the browser and is launched via ACI that will allow MTC session attendees to play with the code and adjust the parameters WITHOUT needing access to Azure, vscode, python, or Synapse.  Let me know if this is interesting and maybe we can collaborate on it.  
