@@ -16,6 +16,9 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
      && export ACCEPT_EULA=Y \
      && apt-get -y install --no-install-recommends unixodbc-dev libgssapi-krb5-2 msodbcsql18
 
+# needed if running docker in WSL2
+#ENV DOCKER_HOST=${DOCKER_HOST}
+#ENV DOCKER_HOST="unix:///mnt/wsl/shared-docker/docker.sock"
 
 # [Optional] If your pip requirements rarely change, uncomment this section to add them to the image.
 COPY ../scripts/requirements.txt /tmp/pip-tmp/
