@@ -37,4 +37,5 @@ In this session we'll look at a few interesting use cases to understand how Pres
     * [Prescriptive Analytics Notebook](./Prescriptive_Analytics.ipynb): It's easier to run this in my devcontainer as a Jupyter notebook vs in Synapse Workspace.  But it's easily adaptable.  **Honestly, start here if you have no clue what Prescriptive Analytics even is.  This is my overview**
 
 
-
+WIP
+* recommendation engine/reinforcement learning :  [wip](./RecommendationSystems.ipynb)
